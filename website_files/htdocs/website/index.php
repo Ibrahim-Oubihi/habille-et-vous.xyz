@@ -8,13 +8,13 @@
     <title>Habille-Et-Vous</title>
 
     <!-- Css -->
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="/website/css/style.css">
 </head>
 
 <body>
 <!-- header -->
 
-    <?php include './header.footer/header.php'; ?>
+    <?php include './composants/header.php'; ?>
 
 <!-- end header -->
 
@@ -37,19 +37,19 @@
                 <ul class="nav flex-column">
                     <li class="nav-item">
                         <a href="#">
-                            Nouveautés
+                            Vestes
                         </a>
                     </li>
 
                     <li class="nav-item">
                         <a href="#">
-                            Plus Size
+                            Chaussures
                         </a>
                     </li>
 
                     <li class="nav-item">
                         <a href="#">
-                            Mode Plage
+                            Pantalon
                         </a>
                     </li>
 
@@ -79,19 +79,18 @@
                 <ul class="nav flex-column">
                     <li class="nav-item">
                         <a href="#">
-                            Nouveautés
+                            Vestes
                         </a>
                     </li>
 
                     <li class="nav-item">
                         <a href="#">
-                            Plus Size
-                        </a>
+                            Chaussures
                     </li>
 
                     <li class="nav-item">
                         <a href="#">
-                            Mode Plage
+                            Pantalon
                         </a>
                     </li>
 
@@ -119,16 +118,16 @@
 <main>
     
     <main>
-        <!-- banners promotions rotate -->
+        <!-- carrousel -->
         <section id="banners-promocionais" class="container carousel slide" data-ride="carousel">
             <!-- imagens -->
             <article class="carousel-inner">
                 <figure class="carousel-item active">
-                    <img src="111.jpg" class="d-block w-100" alt="Family">
+                    <img src="/website/images/111.jpg" class="d-block w-100" alt="Family">
                 </figure>
 
                 <figure class="carousel-item">
-                    <img src="222.jpg" class="d-block w-100" alt="Couple">
+                    <img src="/website/images/222.jpg" class="d-block w-100" alt="Couple">
                 </figure>
             </article>
 
@@ -143,7 +142,7 @@
                 <span class="sr-only">Next</span>
             </a>
         </section>
-        <!-- banners promotions rotate  -->
+        <!-- carrousel  -->
 
         <!-- banners promocionais com 6 colunas -->
         <section class="container banners-promocionais-statico">
@@ -194,9 +193,9 @@
             <article class="row">
 
                 <!-- produtos -->
-                <a href="#" class="produtos-container col-md-3">
+                <a href="./template-produit.php" class="produtos-container col-md-3">
                     <!-- imagem do produto -->
-                    <img src="00.jpg" class="img-fluid" alt="Veste Homme">
+                    <img src="/website/images/00.jpg" class="img-fluid" alt="Veste Homme">
 
                     <!-- itens do produto -->
                     <article class="produtos-itens">
@@ -236,7 +235,7 @@
                 <!-- produtos -->
                 <a href="oi.html" class="produtos-container col-md-3">
                     <!-- imagem do produto -->
-                    <img src="11.jpg" class="img-fluid" alt="Jean Homme">
+                    <img src="/website/images/11.jpg" class="img-fluid" alt="Jean Homme">
 
                     <!-- itens do produto -->
                     <article class="produtos-itens">
@@ -282,7 +281,7 @@
                 <!-- produtos -->
                 <a href="#" class="produtos-container col-md-3">
                     <!-- imagem do produto -->
-                    <img src="download.jpg" class="img-fluid" alt="Veste Femme">
+                    <img src="/website/images/download.jpg" class="img-fluid" alt="Veste Femme">
 
                     <!-- itens do produto -->
                     <article class="produtos-itens">
@@ -322,7 +321,7 @@
                 <!-- produtos -->
                 <a href="#" class="produtos-container col-md-3">
                     <!-- imagem do produto -->
-                    <img src="images.jpg" class="img-fluid" alt="Jean Femme">
+                    <img src="/website/images/images.jpg" class="img-fluid" alt="Jean Femme">
 
                     <!-- itens do produto -->
                     <article class="produtos-itens">
@@ -363,7 +362,7 @@
             <!-- listagem dos produtos -->
 
             <div class="d-flex justify-content-center">
-                <a href="./camisetas.html" class="btn btn-warning col-md-2">REGARDER PLUS</a>
+                <a href="./suite.php" class="btn btn-warning col-md-2">REGARDER PLUS</a>
             </div>
         </section>
         <!-- end container produtos -->
@@ -372,7 +371,7 @@
 <!-- end main -->
 
 <!-- Footer -->
-<?php include './header.footer/footer.php'; ?>
+<?php include './composants/footer.php'; ?>
 <!-- end Footer-->
 
 <!-- Arquivos Bootstrap -->

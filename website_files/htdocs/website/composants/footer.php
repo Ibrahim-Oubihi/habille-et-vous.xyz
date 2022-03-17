@@ -17,7 +17,6 @@
                     <li class="nav-item">
                         <a href="mailto:contact@habilleetvous.fr">contact@habilleetvous.fr</a>
                     </li>
-
                     <li class="nav-item">
                         Horaire Service au client on-line: Lundi à Vendredi de 9:00h jusqu'à 17:30h
                     </li>

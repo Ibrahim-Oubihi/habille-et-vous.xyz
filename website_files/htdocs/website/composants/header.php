@@ -6,7 +6,7 @@
 
             <!-- logo -->
             <a href="index.php" class="col-md-2 d-flex justify-content-center">
-                <img src="logo.png" class="img-fluid" alt="Habbille-Et-Vous">
+                <img src="/website/images/logo.png" class="img-fluid" alt="Habbille-Et-Vous">
             </a>
 
             <!-- buscador -->
@@ -27,7 +27,7 @@
             <!-- administrativo do cliente -->
             <ul class="col-md-3 nav d-flex align-items-center justify-content-around">
                 <li class="nav-item">
-                    <a href="#">
+                    <a href="/website/login.php">
                         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-fill" fill="currentColor"
                              xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd"
@@ -41,7 +41,7 @@
 
                 <li class="nav-item">
                     <span class="notificacao d-flex align-items-center justify-content-center">3</span>
-                    <a href="#">
+                    <a href="/website/login.php">
                         <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart-fill" fill="currentColor"
                              xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd"
